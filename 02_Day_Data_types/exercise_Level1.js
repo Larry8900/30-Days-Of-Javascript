@@ -109,4 +109,4 @@ const word2 = 'JavaScript'
 console.log(word1.concat(word2));
 
 //25`
-console.log(challenge.repeat(2))
+console.log(challenge.repeat(2));
