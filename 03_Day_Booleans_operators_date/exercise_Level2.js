@@ -138,7 +138,7 @@ console.log(`You lived ${yearsLived * secondsInYear}`);
 let presentDate  = new Date();
 let year_ = presentDate.getFullYear();
 let month_ = presentDate.getMonth();
-let day_ = presentDate.getDay();
+let day_ = presentDate.getDate();
 let hour_ = presentDate.getHours();
 let minutes_ = presentDate.getMinutes();
 
