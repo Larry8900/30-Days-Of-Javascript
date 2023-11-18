@@ -66,6 +66,7 @@ console.log(`Season: ${season}`);
 
 //3
 let day = prompt('What is the day today?');
+day = day.toLowerCase()
 switch (day) {
   case 'monday' :
     console.log(`${day} is a working day`);
