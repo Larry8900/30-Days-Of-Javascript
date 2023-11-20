@@ -40,4 +40,49 @@
 const webTechs = require('./web_techs');
 const countries = require('./countries');
 
-console.log(webTechs,countries)
+console.log(webTechs,countries);
+
+//2
+let text =
+'I love teaching and empowering people. I teach HTML, CSS, JS, React, Python.'
+let word = (text.split(' '))
+console.log(word);
+console.log(word.length) //13
+
+//3
+const shoppingCart = ['Milk', 'Coffee', 'Tea', 'Honey'];
+
+
+    //3i
+    shoppingCart.unshift('Meat');
+    console.log(shoppingCart);
+
+    //3ii
+    shoppingCart.push('Sugar');
+    console.log(shoppingCart);
+
+    //3iii
+    shoppingCart.splice(4,1);
+    console.log(shoppingCart)
+
+    //3iv
+    shoppingCart[3] = 'Green Tea';
+    console.log(shoppingCart);
+
+//4
+countries.includes('Ethiopia') ? console.log('ETHIOPIA')
+: countries.push('Ethiopia');
+
+//5
+webTechs.includes('Sass') ? console.log('Sass is a CSS preprocess')
+: webTechs.push('Sass') ;
+console.log(webTechs);
+
+//6
+const frontEnd = ['HTML', 'CSS', 'JS', 'React', 'Redux']
+const backEnd = ['Node','Express', 'MongoDB']
+
+console.log(frontEnd.concat(backEnd))
+
+
+
