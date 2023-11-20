@@ -94,3 +94,40 @@ let sentence = itCompanies.toString(' ')
 console.log(`${sentence} are big iT companies`);
 
 //13
+itCompanies.includes('Google') ? console.log(`Google`)
+:console.log('company not found')
+
+//14
+console.log(sentence.match('oo'));
+// this is a bit tricky as it doesnt return the full word that contains more than one 'o'
+
+//15
+console.log(itCompanies.sort())
+
+//16
+console.log(itCompanies.sort().reverse())
+
+//17
+console.log(itCompanies.slice(0,3));
+
+//18
+console.log(itCompanies.slice(4,(itCompanies.length)))
+
+//19
+console.log(itCompanies.slice(3,4));
+
+//20 
+itCompanies.shift();
+console.log(itCompanies);
+
+//21 
+itCompanies.splice(2,2);
+console.log(itCompanies);
+
+//22
+itCompanies.pop();
+console.log(itCompanies);
+
+//23
+itCompanies.splice();
+console.log(itCompanies);
