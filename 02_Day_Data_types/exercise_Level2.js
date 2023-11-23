@@ -33,10 +33,13 @@ console.log(`The quote ${quote}`);
 console.log(`"Love is not patronizing and charity isn't about pity, it is about love. Charity and love are the same -- with charity you give love, so don't just give money but reach out your hand instead." `);
 
 //3
-const num = '10';
-const number = parseInt(num);
-const number10 = 10;
-console.log(typeof(number), typeof(number10));
+let num = '10';
+typeof(num) === typeof(10) ? console.log('they are exaxtly equal')
+:num = parseInt(num);
+console.log(typeof(num) === typeof(10));
+// const number = parseInt(num);
+// const number10 = 10;
+// console.log(typeof(number), typeof(number10));
 
 //4
 const floatNum = '9.8';
