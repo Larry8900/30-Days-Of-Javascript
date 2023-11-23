@@ -48,7 +48,8 @@ console.log(challenge.toUpperCase());
 console.log(challenge.toLocaleLowerCase());
 
 //6
-console.log(challenge.substring(0,2));
+
+console.log(challenge.substring(3,20)); // Days of Javascript
 
 //7
 console.log(challenge.slice(3,21));
@@ -60,20 +61,20 @@ console.log(challenge.includes('Script'));
 console.log(challenge.split())
 
 //10
-console.log(challenge.split(""))
+console.log(challenge.split(' ')) // [ '30', 'Days', 'Of', 'JavaScript' ]
 
 //11
 const string = 'Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon';
-console.log(string.split());
+console.log(string.split(',')); // ['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle','Amazon']
 
 //12
-console.log(challenge.replace('30 Days Of JavaScript', '30 Days Of Python'));
+console.log(challenge.replace('JavaScript', 'Python'));
 
 //13 
 console.log(challenge.charAt(15));
 
 //14
-console.log(challenge.charCodeAt('J'));
+console.log(challenge.charCodeAt(11));// J is 74
 
 //15
 console.log(challenge.indexOf('a'));
@@ -92,7 +93,7 @@ console.log(index.lastIndexOf('because'))
 console.log(index.search('because'));
 
 //20
-console.log(challenge.trim());
+console.log(challenge.trim(' '));
 
 //21
 console.log(challenge.startsWith('30'))
@@ -102,6 +103,8 @@ console.log(challenge.endsWith('Script'))
 
 //23 
 console.log(challenge.match('a'));
+console.log(challenge.match(/a/gi));
+
 
 //24
 const word1 = '30 Days of';
