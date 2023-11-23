@@ -36,33 +36,37 @@ console.log(`"Love is not patronizing and charity isn't about pity, it is about 
 let num = '10';
 typeof(num) === typeof(10) ? console.log('they are exaxtly equal')
 :num = parseInt(num);
-console.log(typeof(num) === typeof(10));
+console.log(typeof(num) === typeof(10)); //true
+
+
 // const number = parseInt(num);
 // const number10 = 10;
 // console.log(typeof(number), typeof(number10));
 
 //4
-const floatNum = '9.8';
-const floatRoundUp = Math.ceil(Number(floatNum));
-console.log(floatRoundUp);
+let floatNum = parseFloat('9.8');
+floatNum === 10? console.log('parsefloat(9.8) is equal 10')
+: console.log('float 9.8 is not equal 10') // parseFloat('9.8) is not equal to 10
+floatNum = Math.ceil((floatNum));
+console.log(floatNum === 10); //true
 
 //5
 const Python = 'python';
 const jargon = 'jargon';
-console.log(Python.includes('on'), jargon.includes('on')); // true
+console.log(Python.includes('on'), jargon.includes('on')); // true true
 
 //6 
 let jargons = 'i hope this course i snot full of jargon';
 console.log(jargons.includes(jargon)); //true
 
 //7 
-const randomNum = Math.round(Math.random() * 101);
+const randomNum = Math.ceil(Math.random() * 100);
 console.log(randomNum);
 
 //8
 const number50 = 50;
-const random = Math.floor(Math.random()* 51)
-console.log(number50 + random);
+const random = number50 + Math.floor(Math.random()* 51)
+console.log(random);
 
 //9
 const randNum = Math.floor(Math.random()* 256);
@@ -72,7 +76,8 @@ console.log(randNum);
 const strng = 'Javascript';
 const strngArray = strng.split('');
 const strngNum = strng.length;
-const randStringNum = Math.ceil(Math.random()* strngNum);
+const randStringNum = Math.floor(Math.random()* strngNum);
+console.log(randStringNum);
 console.log(strngArray[randStringNum]);
 
 //11
