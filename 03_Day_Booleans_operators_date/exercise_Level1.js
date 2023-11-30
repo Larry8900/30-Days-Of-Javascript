@@ -40,7 +40,7 @@
 console.log(typeof('10') == typeof(10)); // false;
 
 //3
-console.log(typeof(parseInt('9.9')) == typeof(10)); //true
+console.log(typeof(parseInt('9.8')) == typeof(10)); //true
 
 //4i
 console.log(4 > 0); // true

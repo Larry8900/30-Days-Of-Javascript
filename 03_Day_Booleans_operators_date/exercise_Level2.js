@@ -58,7 +58,7 @@ let height = prompt('enter height number');
 let area = 0.5;
 
 let areaOfTriangle = area * base * height;
-console.log(areaOfTriangle);
+console.log(`The area of the triangle is ${areaOfTriangle} `);
 
 //2
 let sideA = parseInt(prompt('enter side a'));
