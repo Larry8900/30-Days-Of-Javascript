@@ -40,7 +40,7 @@ console.log(extractedNumbers); // ['5000', 10000, '15000']
 function add(a){
     let number = 0
     
-        // turn each string to number
+        // turn each string to number & also multiply by 12 to get the annual wages per year
         let num1 = parseInt(a[0] * 12);
         let num2 = parseInt(a[1]);
         let num3 = parseInt(a[2]*12);
