@@ -34,12 +34,13 @@
 let userAge = parseInt(prompt('Enter your age'));
 if(userAge >= 18){
     alert('You are old enough to drive')
-}alert(`You are left with ${18 - userAge} years to drive`);
-
+}else {
+    alert(`You are left with ${18 - userAge} years to drive`);
+}
 //2
 let yourAge = parseInt(prompt('Enter your age'));
 if (yourAge > 25){
-    console.log(`You are ${yourAge - 25}`)
+    console.log(`You are ${yourAge - 25} years older than me`)
 }
 else{
     console.log(`You are ${25 - yourAge} younger than me`)
