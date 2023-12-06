@@ -149,4 +149,37 @@ for (let i = 0; i <= 10; i++){
 }
 
 //6
+console.log('i i^2 i^3')
+for (let i = 0; i <= 10; i++){
 
+    console.log(`${i} ${i * i} ${i *i * i}`)
+}
+
+//7 
+for (let i = 1; i <= 100; i++){
+    if(i % 2 == 0){
+        console.log(i)
+    }
+}
+
+//8 
+for (let i = 1; i <= 100; i++){
+    if(i % 2 == 1){
+        console.log(i)
+    }
+}
+
+//9
+for (let i = 2; i <= 100; i++){
+    if(100 % i == 0){
+        isPrime = 
+        console.log(false)
+    }
+} //bug stuck
+
+//10
+let sum = 0
+for (let i = 0; i <= 100; i++){
+    sum += i
+}
+console.log(`The sum of all numbers from 0 to 100 is ${sum}`)
