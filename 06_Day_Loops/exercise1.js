@@ -212,18 +212,19 @@ for (let i = 0; i <= 4; i++){
 console.log(array)
 
 //14
-// let num = 7
-// let unique = []
-// for (let i = 0; i < 5; i++){
-//     let randomUni = Math.ceil(Math.random() * num)
-//     unique.push(randomUni)
-//     if(unique.length > 2 && unique[unique.length - 1] == unique[unique.length -2]){
-//         unique.pop()
-//     }else {
-//         unique.push(randomUni)
-//     }
-// }
-// console.log(unique)
+let num = 20
+let unique = []
+for (let i = 0; i < 6; i++){
+    let randomUni = Math.ceil(Math.random() * num)
+    
+    if(!unique.includes(randomUni)){
+        unique.push(randomUni)
+    }
+}
+console.log(unique)
+
+//15
+
 
 
 
