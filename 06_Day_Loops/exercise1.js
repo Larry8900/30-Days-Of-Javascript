@@ -110,4 +110,43 @@ do {
     k++
 } while (k < 11)
 
+//2
+
+for (let i = 10; i >= 0; i--){
+    console.log(i)
+}
+
+let j = 10
+while (j >= 0){
+    console.log(j)
+    j--
+}
+
+let k = 10
+do{
+    console.log(k)
+    k--
+}while (k >= 0)
+
+//3
+//
+let n = 20
+for(let i = 0; i <= n; i++){
+    console.log(i)
+}
+
+//4 
+let hash = '#'
+for (let i = 0; i < 7; i++){
+    console.log(hash)
+     hash = hash + '#'
+}
+
+//5
+
+for (let i = 0; i <= 10; i++){
+    console.log(`${i} x ${i} = ${i * i}` )
+}
+
+//6
 
