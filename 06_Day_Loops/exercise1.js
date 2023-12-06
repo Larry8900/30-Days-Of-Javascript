@@ -183,3 +183,49 @@ for (let i = 0; i <= 100; i++){
     sum += i
 }
 console.log(`The sum of all numbers from 0 to 100 is ${sum}`)
+
+//11
+let oddSum = 0
+let evenSum = 0
+for (let i = 0; i <= 100; i++){
+    if(i % 2 == 1 ){
+        oddSum += i
+    }else{
+        evenSum += i
+    }
+    
+}
+console.log(`The sum of all evens from 0 to 100 is ${oddSum}. And the sum of all oddds from 0 to 100 is ${evenSum}`)
+
+//12 - using oddsum and evenSum variables above
+
+let sumArray = []
+sumArray.push(oddSum,evenSum)
+console.log(sumArray)
+
+//13
+let array = []
+for (let i = 0; i <= 4; i++){
+    let randomNum = Math.ceil(Math.random() * 50);
+    array.push(randomNum)
+}
+console.log(array)
+
+//14
+// let num = 7
+// let unique = []
+// for (let i = 0; i < 5; i++){
+//     let randomUni = Math.ceil(Math.random() * num)
+//     unique.push(randomUni)
+//     if(unique.length > 2 && unique[unique.length - 1] == unique[unique.length -2]){
+//         unique.pop()
+//     }else {
+//         unique.push(randomUni)
+//     }
+// }
+// console.log(unique)
+
+
+
+
+
